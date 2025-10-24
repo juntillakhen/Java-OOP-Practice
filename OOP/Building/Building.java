@@ -32,7 +32,6 @@ class ResidentialBuilding extends Building {
         return numberOfApartments * rentPerApartment;
     }
 
-    @Override
     public void displayDetails() {
         System.out.println("Residential Building Details:");
         super.displayDetails();
@@ -56,7 +55,6 @@ class CommercialBuilding extends Building {
         return officeSpace * rentPerSquareMeter;
     }
 
-    @Override
     public void displayDetails() {
         System.out.println("Commercial Building Details:");
         super.displayDetails();
@@ -65,3 +63,4 @@ class CommercialBuilding extends Building {
         System.out.println("Total Rent: ₱" + calculateTotalRent());
     }
 }
+
