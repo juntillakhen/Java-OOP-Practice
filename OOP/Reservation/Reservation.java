@@ -48,7 +48,6 @@ class ResortReservation extends Reservation {
         System.out.println("Room number updated to: " + roomNumber);
     }
 
-    @Override
     public void displayDetails() {
         System.out.println("🏨 Resort Reservation Details:");
         super.displayDetails();
@@ -75,3 +74,4 @@ class RailwayReservation extends Reservation {
         System.out.println("Seat Number: " + seatNumber);
     }
 }
+
