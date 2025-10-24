@@ -20,9 +20,10 @@ public class EventMain {
 
         System.out.println("\n-------------------------------\n");
         if (seminar.hasConflict(concert)) {
-            System.out.println("⚠️ Schedule Conflict: Both events are on the same date and location!");
+            System.out.println("Schedule Conflict: Both events are on the same date and location!");
         } else {
-            System.out.println("✅ No schedule conflict detected.");
+            System.out.println("No schedule conflict detected.");
         }
     }
 }
+
