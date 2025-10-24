@@ -54,7 +54,6 @@ public class TravelService {
             this.hotel = hotel;
         }
 
-        @Override
         public String toString() {
             return "Hotel reservation: " + hotel;
         }
@@ -153,3 +152,4 @@ public class TravelService {
         else for (HotelReservation hr : bookedHotels) System.out.println("- " + hr);
     }
 }
+
