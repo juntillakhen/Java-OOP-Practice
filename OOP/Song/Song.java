@@ -17,8 +17,8 @@ public class Song {
         return artist;
     }
 
-    @Override
     public String toString() {
         return "\"" + title + "\" by " + artist;
     }
 }
+
